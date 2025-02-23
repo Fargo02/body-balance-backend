@@ -8,21 +8,39 @@ object VideoData {
         VideoCategory.Neck to listOf(
             VideoItem(
                 101,
-                "https://example.com/basic/neck1.mp4",
+                "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Разминка для шеи",
                 "Простое упражнение для разминки шейного отдела"
+            ),
+            VideoItem(
+                102,
+                "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+                "Растяжка шеи",
+                "Упражнение для улучшения гибкости и подвижности шеи"
+            ),
+            VideoItem(
+                102,
+                "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+                "Растяжка шеи",
+                "Упражнение для улучшения гибкости и подвижности шеи"
             ),
             VideoItem(
                 102,
                 "https://example.com/basic/neck2.mp4",
                 "Растяжка шеи",
                 "Упражнение для улучшения гибкости и подвижности шеи"
-            )
+            ),
+            VideoItem(
+                102,
+                "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+                "Растяжка шеи",
+                "Упражнение для улучшения гибкости и подвижности шеи"
+            ),
         ),
         VideoCategory.Shoulder to listOf(
             VideoItem(
                 103,
-                "https://example.com/basic/shoulder1.mp4",
+                "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Разминка плечевого сустава",
                 "Упражнение для подготовки плеч к нагрузке"
             )
@@ -38,7 +56,7 @@ object VideoData {
         VideoCategory.Ankle to listOf(
             VideoItem(
                 105,
-                "https://example.com/basic/ankle1.mp4",
+                "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Развитие гибкости голеностопа",
                 "Простые движения для повышения мобильности голеностопного сустава"
             )
@@ -54,7 +72,7 @@ object VideoData {
         VideoCategory.WallPushUps to listOf(
             VideoItem(
                 107,
-                "https://example.com/basic/wallpushups1.mp4",
+                "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Отжимания от стены",
                 "Легкий вариант отжиманий для новичков и реабилитации"
             )
