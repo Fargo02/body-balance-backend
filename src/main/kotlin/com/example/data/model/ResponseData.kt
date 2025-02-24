@@ -4,7 +4,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class VideoItem(
-    val id: Int,
+    val id: Double,
     val url: String,
     val name: String,
     val description: String

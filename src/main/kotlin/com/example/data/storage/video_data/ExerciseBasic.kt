@@ -1,37 +1,45 @@
-package com.example.data.repository
+package com.example.data.storage.video_data
 
 import com.example.data.model.VideoCategory
 import com.example.data.model.VideoItem
 
-object VideoData {
-    val exerciseBasic = mapOf(
+/*
+    1.204
+    1 - тип аккаунта
+    2 - категория
+    04 - номер видео
+*/
+
+object ExerciseBasic {
+
+    val videoCategory = mapOf(
         VideoCategory.Neck to listOf(
             VideoItem(
-                101,
+                1.101,
                 "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Разминка для шеи",
                 "Простое упражнение для разминки шейного отдела"
             ),
             VideoItem(
-                102,
+                1.102,
                 "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
                 "Растяжка шеи",
                 "Упражнение для улучшения гибкости и подвижности шеи"
             ),
             VideoItem(
-                102,
+                1.103,
                 "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Растяжка шеи",
                 "Упражнение для улучшения гибкости и подвижности шеи"
             ),
             VideoItem(
-                102,
+                1.104,
                 "https://example.com/basic/neck2.mp4",
                 "Растяжка шеи",
                 "Упражнение для улучшения гибкости и подвижности шеи"
             ),
             VideoItem(
-                102,
+                1.105,
                 "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Растяжка шеи",
                 "Упражнение для улучшения гибкости и подвижности шеи"
@@ -39,7 +47,7 @@ object VideoData {
         ),
         VideoCategory.Shoulder to listOf(
             VideoItem(
-                103,
+                1.201,
                 "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Разминка плечевого сустава",
                 "Упражнение для подготовки плеч к нагрузке"
@@ -47,7 +55,7 @@ object VideoData {
         ),
         VideoCategory.Knee to listOf(
             VideoItem(
-                104,
+                1.301,
                 "https://example.com/basic/knee1.mp4",
                 "Укрепление коленного сустава",
                 "Легкие упражнения для укрепления связок колена"
@@ -55,7 +63,7 @@ object VideoData {
         ),
         VideoCategory.Ankle to listOf(
             VideoItem(
-                105,
+                1.401,
                 "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Развитие гибкости голеностопа",
                 "Простые движения для повышения мобильности голеностопного сустава"
@@ -63,7 +71,7 @@ object VideoData {
         ),
         VideoCategory.Plank to listOf(
             VideoItem(
-                106,
+                1.501,
                 "https://example.com/basic/plank1.mp4",
                 "Классическая планка",
                 "Базовое упражнение для укрепления мышц кора"
@@ -71,7 +79,7 @@ object VideoData {
         ),
         VideoCategory.WallPushUps to listOf(
             VideoItem(
-                107,
+                1.601,
                 "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
                 "Отжимания от стены",
                 "Легкий вариант отжиманий для новичков и реабилитации"
@@ -79,73 +87,10 @@ object VideoData {
         ),
         VideoCategory.Introduction to listOf(
             VideoItem(
-                108,
+                1.701,
                 "https://example.com/basic/intro.mp4",
                 "Введение в упражнения",
                 "Обзорный ролик с объяснением базовой программы"
-            )
-        ),
-    )
-
-    val exercisePro = mapOf(
-        VideoCategory.Neck to listOf(
-            VideoItem(
-                201,
-                "https://example.com/pro/neck1.mp4",
-                "Pro Neck 1",
-                "Продвинутое упражнение для шеи"
-            )
-        ),
-        VideoCategory.Shoulder to listOf(
-            VideoItem(
-                202,
-                "https://example.com/pro/shoulder1.mp4",
-                "Pro Shoulder 1",
-                "Продвинутое плечо"
-            ),
-            VideoItem(
-                203,
-                "https://example.com/pro/shoulder2.mp4",
-                "Pro Shoulder 2",
-                "Дополнительное упражнение"
-            )
-        )
-    )
-
-    val rehabilitationFirst = mapOf(
-        VideoCategory.Knee to listOf(
-            VideoItem(
-                301,
-                "https://example.com/rehab1/knee1.mp4",
-                "Rehab 1 Knee",
-                "Реабилитация колена"
-            )
-        ),
-        VideoCategory.Ankle to listOf(
-            VideoItem(
-                302,
-                "https://example.com/rehab1/ankle1.mp4",
-                "Rehab 1 Ankle",
-                "Реабилитация голеностопа"
-            )
-        )
-    )
-
-    val rehabilitationSecond = mapOf(
-        VideoCategory.Plank to listOf(
-            VideoItem(
-                401,
-                "https://example.com/rehab2/plank1.mp4",
-                "Rehab 2 Plank",
-                "Реабилитация планки"
-            )
-        ),
-        VideoCategory.WallPushUps to listOf(
-            VideoItem(
-                402,
-                "https://example.com/rehab2/pushups1.mp4",
-                "Rehab 2 Pushups",
-                "Реабилитация отжиманий"
             )
         )
     )
