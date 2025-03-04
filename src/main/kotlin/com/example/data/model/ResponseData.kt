@@ -3,7 +3,7 @@ package com.example.data.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class VideoItem(
+class VideoItem(
     val id: Double,
     val url: String,
     val name: String,
@@ -11,8 +11,13 @@ data class VideoItem(
 )
 
 @Serializable
-data class ResponseData(
+class ResponseData(
     val id: Int,
     val category: String,
     val videoItems: List<VideoItem>
+)
+
+@Serializable
+class ResponseCategory(
+    val data: List<String>
 )

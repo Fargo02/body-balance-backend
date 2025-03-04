@@ -22,5 +22,10 @@ sealed class VideoCategory(val name: String) {
                 else -> throw IllegalArgumentException("Неизвестная категория: $name")
             }
         }
+
+        fun getCategories(): List<String> {
+            return VideoCategory::class.sealedSubclasses
+                .mapNotNull { it.objectInstance?.name }
+        }
     }
 }
