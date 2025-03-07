@@ -88,7 +88,7 @@ object ExerciseBasic {
         VideoCategory.Introduction to listOf(
             VideoItem(
                 1.701,
-                "https://example.com/basic/intro.mp4",
+                "https://github.com/Fargo02/body-balance-backend/raw/refs/heads/master/response/Vstuplenie.mp4",
                 "Введение в упражнения",
                 "Обзорный ролик с объяснением базовой программы"
             )
