@@ -21,4 +21,3 @@ object GetVideoRepository {
         return ResponseData(id = type.getId(), category = category.name, videoItems = videos)
     }
 }
-
